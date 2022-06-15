@@ -8,7 +8,8 @@
 import Foundation
 import Darwin
 
-struct tweetModel {
-    var tweet = ""
-    var tweettime: Date
+struct TweetDataModel {
+    var userName: String
+    var tweetText: String
+    var tweetTime: String
 }
