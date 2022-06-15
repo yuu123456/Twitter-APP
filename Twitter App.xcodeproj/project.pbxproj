@@ -15,6 +15,7 @@
 		23ECEF3C28521D0800A9411B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23ECEF3B28521D0800A9411B /* Main.storyboard */; };
 		23ECEF3E28537BA100A9411B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ECEF3D28537BA100A9411B /* HomeViewController.swift */; };
 		23ECEF4028537C0200A9411B /* TweetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ECEF3F28537C0100A9411B /* TweetViewController.swift */; };
+		23ECEF482857753800A9411B /* TweetDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23ECEF472857753800A9411B /* TweetDataModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		23ECEF3B28521D0800A9411B /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		23ECEF3D28537BA100A9411B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		23ECEF3F28537C0100A9411B /* TweetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetViewController.swift; sourceTree = "<group>"; };
+		23ECEF472857753800A9411B /* TweetDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweetDataModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				23ECEF2D28521CC200A9411B /* Twitter_App.xcdatamodeld */,
 				23ECEF3D28537BA100A9411B /* HomeViewController.swift */,
 				23ECEF3F28537C0100A9411B /* TweetViewController.swift */,
+				23ECEF472857753800A9411B /* TweetDataModel.swift */,
 			);
 			path = "Twitter App";
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				23ECEF2528521CC200A9411B /* AppDelegate.swift in Sources */,
+				23ECEF482857753800A9411B /* TweetDataModel.swift in Sources */,
 				23ECEF2728521CC200A9411B /* SceneDelegate.swift in Sources */,
 				23ECEF4028537C0200A9411B /* TweetViewController.swift in Sources */,
 				23ECEF2F28521CC200A9411B /* Twitter_App.xcdatamodeld in Sources */,
